@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f5ef">
+  <meta name="description" content="A little tour of Kieran's future play garage. Birthday gift ideas for building, balancing, bouncing, and making up games. Secondhand finds welcome.">
+  <title>Kieran’s Play Garage</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23243dce'/%3E%3Cpath d='M9 19L20 9l11 10v13H9z' fill='%23f9db60'/%3E%3Cpath d='M15 22h10M15 26h10M15 30h10' stroke='%23243dce' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=DM+Sans:wght@400;450;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=simple-items-1">
+  <script src="content.js?v=materials-wording-1" defer></script>
+  <script src="mobile-tour.js?v=header-note-1" defer></script>
+  <script src="app.js?v=simple-items-1" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="gift-ideas.html">Skip the tour and see the gift ideas</a>
+  <header class="site-header">
+    <a class="wordmark" href="#" aria-label="Kieran's Play Garage, back to the beginning"><span class="wordmark-k" aria-hidden="true">K</span><span aria-hidden="true">ieran’s Play Garage</span></a>
+    <button class="text-button" data-open-all>All the gift ideas <span class="count" data-count>46</span></button>
+  </header>
+  <main>
+    <section class="opening-note" aria-label="A birthday note"><div class="opening-letter" id="opening-letter"></div><a class="opening-invite" href="#garage-view">Explore the room <span aria-hidden="true">↓</span></a></section>
+    <div id="garage-view"></div>
+    <section class="journey" id="tour" aria-label="A tour of Kieran’s future play garage">
+      <div class="theater" id="theater">
+        <div class="scene-shell" id="scene-shell">
+          <div class="scene-mat">
+            <div class="front-scene" id="front-scene">
+              <img class="garage-facade" data-front-closed alt="The real garage’s burgundy door, framed by white trim and stone" width="1448" height="1086" fetchpriority="high">
+              <div class="garage-opening"><img data-front-open alt="The imagined room, with bunk beds and a king bed on the left and a colorful play area on the right" width="1448" height="1086"><div class="door-mask"><div class="door-panel" id="door-image"></div></div></div>
+            </div>
+            <div class="side-scene" id="side-scene" aria-hidden="true" inert>
+              <div class="side-camera" id="side-camera"><img class="side-base" data-side-image alt="A straight-on view of the play wall with bars, rings, climbing holds, a train table and colorful play pieces" width="1448" height="1086"><div class="hotspots" id="hotspots"></div></div>
+            </div>
+          </div>
+          <span class="photo-caption" id="photo-caption">Our garage, with a little imagination.</span><span class="photo-note" id="photo-note" aria-hidden="true">come on in!</span>
+        </div>
+        <svg class="leader-lines" id="leader-lines" aria-hidden="true"></svg>
+        <div class="intro-copy" id="intro-copy"><p class="eyebrow">Come on in</p><h2>The garage<span>.</span></h2><a class="scroll-invite" href="#open-the-door"><span aria-hidden="true">↓</span>Scroll to open the door</a></div>
+        <div class="story-copy" id="story-copy"><p class="eyebrow" id="chapter-kicker"></p><h2 id="chapter-title"></h2><p id="chapter-description"></p><div class="chapter-items" id="chapter-items"></div><p class="chapter-hint" id="chapter-hint"></p></div>
+        <div class="exit-copy" id="exit-copy"><h2>Thank you<span>.</span></h2><button class="primary-button" data-open-all>See all the ideas</button><a class="replay-link" href="#welcome">Open the garage again</a></div>
+        <div class="tour-footer"><span id="scene-label">A little possibility</span><span class="tour-instruction">Keep scrolling ↓</span><span id="tour-fraction">01 / 10</span></div>
+        <nav class="chapter-nav" id="chapter-nav" aria-label="Tour chapters"></nav><div class="reading-progress" aria-hidden="true"><div id="reading-progress-fill"></div></div>
+      </div><div class="scroll-stops" id="scroll-stops"></div>
+    </section>
+
+    <div class="mobile-story" id="mobile-story">
+      <section class="mobile-opening-section" aria-label="Open the garage">
+        <div class="mobile-doorway" id="mobile-doorway"><img class="garage-facade" data-front-closed alt="Our burgundy garage door and stone surround" width="1448" height="1086"><div class="garage-opening"><img data-front-open alt="Beds on the left, and a full play area on the right" width="1448" height="1086"><div class="door-mask"><div class="door-panel"></div></div></div></div>
+        <button class="mobile-door-button" id="mobile-door-button" aria-expanded="false" aria-controls="mobile-doorway">Open the garage</button>
+        <p class="mobile-caption">Same garage. A new adventure.</p>
+      </section>
+      <section class="phone-experience" id="mobile-room-tour" aria-label="Explore the play garage">
+        <div class="phone-stage" id="phone-stage">
+          <div class="phone-room-window" id="phone-room-window">
+            <div class="phone-room-camera is-focused" id="phone-room-camera"><img class="side-base" data-side-image alt="The imagined play wall" width="1448" height="1086"><div class="mobile-objects" id="phone-objects"></div></div>
+
+          </div>
+          <svg class="phone-leader" id="phone-leader" aria-hidden="true"></svg>
+          <div class="phone-focus-card" id="phone-focus-card">
+            <div class="phone-caption-meta"><span class="phone-count" id="phone-count">The playroom</span><button class="phone-map-button" id="phone-map-button" aria-label="See the whole room and choose an item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 5 6-2 6 2 6-2v16l-6 2-6-2-6 2V5Z M9 3v16 M15 5v16"/></svg>Room map</button></div>
+            <h2 id="phone-item-title" aria-live="polite" aria-atomic="true"></h2>
+            <div class="phone-controls"><button class="phone-step-button" id="phone-previous" aria-label="Previous item">←</button><button class="phone-detail-button" id="phone-detail">Take a closer look <span aria-hidden="true">↗</span></button><button class="phone-step-button" id="phone-next" aria-label="Next item">→</button></div>
+            <p class="phone-scroll-cue" id="phone-scroll-cue">Scroll to explore <span aria-hidden="true">↓</span></p>
+          </div>
+        </div><div class="phone-stops" id="phone-stops" aria-hidden="true"></div>
+      </section>
+
+    </div>
+
+    <section class="gift-note" id="all-ideas" aria-labelledby="gift-note-title"><h2 id="gift-note-title"></h2><div class="gift-note-body"><div id="closing-letter"></div><button class="primary-button" data-open-all>See all <span data-count>46</span> ideas</button></div></section>
+  </main>
+  <dialog class="ideas-dialog" id="ideas-dialog" aria-labelledby="ideas-title">
+    <div class="dialog-header"><div><p class="eyebrow">Room for a good secondhand find</p><h2 id="ideas-title">All the possibilities<span>.</span></h2></div><button class="icon-button" data-close-dialog aria-label="Close all gift ideas">×</button></div>
+    <p class="dialog-intro"><span data-count>46</span> items to explore.</p>
+    <div class="ideas-grid" id="ideas-grid"></div>
+  </dialog>
+
+  <dialog class="phone-map-dialog" id="phone-map-dialog" aria-labelledby="phone-map-title">
+    <div class="phone-map-heading"><h2 id="phone-map-title">The whole room<span>.</span></h2><button class="icon-button" data-close-dialog aria-label="Close the room map">×</button></div>
+    <div class="phone-map-tabs" role="tablist" aria-label="Room view"><button role="tab" id="phone-wall-tab" aria-selected="true" aria-controls="phone-map-panel">Play wall</button><button role="tab" id="phone-garage-tab" aria-selected="false" aria-controls="phone-map-panel" tabindex="-1">Whole garage</button></div>
+    <div id="phone-map-panel" role="tabpanel" aria-labelledby="phone-wall-tab"><img id="phone-map-large" data-side-image alt="The complete play wall and its equipment" width="1448" height="1086"></div>
+    <p class="phone-map-instruction">Jump to an idea</p><div class="phone-map-items" id="phone-map-items"></div>
+  </dialog>
+
+  <dialog class="item-dialog" id="item-dialog" aria-labelledby="item-title">
+    <button class="icon-button item-close" data-close-dialog aria-label="Close this gift idea">×</button>
+    <div class="item-image-wrap"><img id="item-image" alt="" width="600" height="450"><div id="item-room-detail" class="picture-crop" hidden></div></div>
+    <div class="item-copy"><h2 id="item-title"></h2><p id="item-purpose"></p><a class="primary-button" id="item-link" target="_blank" rel="noopener noreferrer">See one example </a></div>
+  </dialog>
+  <noscript><div class="no-script"><h1>Thank you for thinking of Kieran on his birthday.</h1><p>A birthday wishlist for building, climbing, bouncing and making up games. Gifts are optional and secondhand finds are welcome.</p><a href="gift-ideas.html">See the complete gift list</a></div></noscript>
+</body>
+</html>
