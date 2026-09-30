@@ -8359,9 +8359,9 @@
       "id": "balance-beam",
       "name": "Low balance beam",
       "category": "Balance",
-      "description": "A low, narrow beam for balance practice.",
-      "image": "assets/items-materials/balance-beam.webp",
-      "exampleURL": "https://bunnyhopkinstoys.com/products/balance-beam"
+      "description": "A low wooden beam on two supports for balance practice.",
+      "image": "assets/items-materials/balance-beam-avdar.png",
+      "exampleURL": "https://avdar.co/products/balance-beam-basic-unit"
     },
     {
       "id": "octagon-tumbler",
